@@ -1,0 +1,122 @@
+h1 {
+    font-size: 55px;
+    letter-spacing: 1.2px;
+}
+
+h4 {
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 42px;
+    letter-spacing: 1.2px;
+}
+
+.example p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    padding: 0 5px;
+}
+
+#mask0_543_12071 {
+    mask-type: alpha;
+}
+
+.video-modal {
+    z-index: 1050;
+}
+
+.bg-pink {
+    background-color: #D2B6DE;
+}
+
+.steps .steps-content {
+    background-color: #EDF2ED;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.steps .steps-content p {
+    font-family: "Montserrat" !important;
+}
+
+.steps .steps-content .detail {
+    color: #222222;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+}
+
+.faq h2 {
+    font-family: "Poppins";
+}
+
+.faq .accordion .accordion-item {
+    border-right: none;
+    border-left: none;
+    margin: 0rem 5rem;
+}
+
+.faq .accordion-body{
+    font-family: "Poppins", sans-serif;
+    color: #324A6D;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0px;
+}
+
+.faq .accordion .accordion-button {
+    background-color: transparent !important;
+    color: black !important;
+    padding: 2rem 1rem 2rem 1rem !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.faq .accordion .accordion-button:hover {
+    background-color: transparent !important;
+}
+
+.faq .accordion .accordion-button:focus {
+    color: #772AE7 !important;
+    border-bottom: 0px !important;
+}
+
+.accordion-button::after {
+    content: none !important;
+}
+
+/* Custom + icon */
+.faq .accordion-button.collapsed::before {
+    content: "+" !important;
+    font-size: 30px !important;
+    position: absolute !important;
+    right: 15px !important;
+    color: #1C244B !important;
+    transition: transform 0.3s ease !important;
+}
+
+/* When accordion is open, change + to - */
+.faq .accordion-button:not(.collapsed)::before {
+    content: "-" !important;
+    color: #7c34e8 !important;
+    position: absolute !important;
+    right: 15px !important;
+    font-size: 30px !important;
+    /* Purple color */
+}
+
+.faq .accordion-button:not(.collapsed) {
+    color: #7c34e8 !important;
+    /* Purple text */
+    background-color: #f8f9fa !important;
+}

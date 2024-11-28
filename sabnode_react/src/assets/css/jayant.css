@@ -1,0 +1,213 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+small {
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  margin-bottom: 0px;
+  outline: 0;
+  padding: 0;
+  color: #6B6B6B;
+  font-family: "Antonio", Sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  word-spacing: 1px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: "Anton", sans-serif;
+  /* font-weight: 100;  aint working */
+  /* background-color: pink; */
+}
+
+.text-purple {
+  color: #772ae7 !important;
+}
+
+.btnAll {
+  font-family: "Poppins", Sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 900 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1.1px !important;
+  fill: #FFFFFF !important;
+  color: #FFFFFF !important;
+  background-color: transparent !important;
+  background-image: linear-gradient(90deg, #772AE7 0%, #8E8DFF 100%) !important;
+  border-style: none !important;
+  border-radius: 5px 5px 5px 5px !important;
+  box-shadow: 0px 0px 55px 8px rgba(255, 255, 255, 0.43) !important;
+  padding: 15px 28px 15px 28px !important;
+  transition: transform ease 0.3s !important;
+}
+
+.btnAll:hover {
+  transform: scale(0.9) !important;
+  color: #7C34E8 !important;
+  background-color: transparent !important;
+  background-image: linear-gradient(90deg, #FFFFFF 0%, #D5BAFF 100%) !important;
+}
+
+.folower_h2 {
+  font-size: 65px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+.section_fifth_h2 {
+  font-size: 100px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+.video_h2 {
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+.sixth_entrepreneur {
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+.second_section h3 {
+  font-size: 1.625rem;
+  ;
+  font-family: "Anton", Sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+  color: #2D3031;
+}
+
+.desc_card {
+  color: #222222;
+  font-family: "Poppins", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  word-spacing: 1px;
+}
+
+.desc {
+  color: #6B6B6B;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+  word-spacing: 1px;
+}
+
+.elementor-heading {
+  font-size: 42px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+.feedback {
+  color: #FFFFFF;
+  font-size: 55px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+.svg_class {
+  width: 1em;
+  height: 1em;
+  position: relative;
+  fill: #772AE7;
+}
+
+.sms_h2 {
+  font-size: 70px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+.sms_p {
+  text-align: center;
+  color: #616161;
+  font-family: "Antonio", Sans-serif;
+  font-size: 22px;
+  font-weight: 200;
+  word-spacing: 1px;
+}
+
+.entrepreneur {
+  font-size: 55px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+.frequently_asked_questions {
+  color: #1C244B !important;
+  font-family: "Poppins", Sans-serif !important;
+  font-size: 45px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  font-style: normal !important;
+  text-decoration: none !important;
+  line-height: 1.2em !important;
+  letter-spacing: 0px !important;
+}
+
+.card_style {
+  padding: 20px 20px 20px 20px;
+  background-color: #FFFFFF;
+  transition: background 1.2s;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
+}
+
+
+/* FAQ 2 */
+.faq h2 {
+  font-family: "Poppins";
+}
+
+.faq .accordion .accordion-item {
+  border-right: none;
+  border-left: none;
+  margin: 0rem 5rem;
+}
+
+.faq .accordion-body {
+  font-family: "Poppins", sans-serif;
+  color: #324A6D;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0px;
+}
+
+.faq .accordion .accordion-button {
+  background-color: transparent !important;
+  color: black !important;
+  padding: 2rem 1rem 2rem 1rem !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.faq .accordion .accordion-button:hover {
+  background-color: transparent !important;
+}
+
+.faq .accordion .accordion-button:focus {
+  color: #772AE7 !important;
+  border-bottom: 0px !important;
+}

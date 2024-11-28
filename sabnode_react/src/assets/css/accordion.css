@@ -1,0 +1,74 @@
+.accordion-button {
+    background-color: transparent !important;
+    font-weight: 400 !important;
+
+    text-decoration: none !important;
+    padding-right: 40px !important;
+    /* Ensure space for the icon */
+    position: relative !important;
+}
+
+/* Hides default Bootstrap arrow */
+.accordion-button::after {
+    content: none !important;
+}
+
+/* Custom + icon */
+.accordion-button.collapsed::before {
+    content: "+" !important;
+    font-size: 24px !important;
+    position: absolute !important;
+    right: 15px !important;
+    color: #1C244B !important;
+    transition: transform 0.3s ease !important;
+}
+
+/* When accordion is open, change + to - */
+.accordion-button:not(.collapsed)::before {
+    content: "-" !important;
+    color: #7c34e8 !important;
+    position: absolute !important;
+    right: 15px !important;
+    font-size: 24px !important;
+    /* Purple color */
+}
+
+.accordion-button:not(.collapsed) {
+    color: #7c34e8 !important;
+    /* Purple text */
+    background-color: #f8f9fa !important;
+}
+
+.accordion-item {
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    background: transparent !important;
+}
+
+.accordion-item h4 {
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    text-transform: capitalize !important;
+    line-height: 1.5em !important;
+    letter-spacing: 0px !important;
+    padding: 20px !important;
+}
+
+.accordion-item p {
+    border-width: 0.5px !important;
+    border-bottom-color: #C8D5DC !important;
+    color: #324A6D !important;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    line-height: 1.5em !important;
+    letter-spacing: 0px !important;
+    padding: 0px 50px 30px 0px !important;
+}

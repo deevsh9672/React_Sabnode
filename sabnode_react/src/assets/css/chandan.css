@@ -1,0 +1,364 @@
+h3 {
+
+    color: rgb(39, 39, 39) !important;
+    font-family: Poppins, sans-serif;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+
+h2 {
+    font-family: Anton, sans-serif;
+    font-size: 54px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1.2px;
+}
+
+.business {
+    font-family: "Anton", Sans-serif;
+    font-size: 42px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1.2px !important;
+}
+
+.dashboard {
+    font-family: "Anton", Sans-serif !important;
+    font-size: 50px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1.2px !important;
+}
+
+.Collects h2 {
+    font-family: "Anton", Sans-serif !important;
+    font-size: 45px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1.2px !important;
+}
+
+
+.faq h2 {
+    color: #1C244B;
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px !important;
+    font-weight: 600 !important;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+}
+
+
+.team h2:nth-child(2) {
+    color: #1C244B;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+}
+
+.reviews h3 {
+    font-family: "Anton", Sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 1.5rem !important;
+    margin-top: 8px !important;
+}
+
+
+.reviews p:nth-child(0dd) {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.reviews .col-md-4 .bg-logo {
+    transition: transform 0.3s ease;
+}
+
+.reviews .col-md-4 .bg-logo:hover {
+    transform: translateY(-30px);
+
+}
+
+
+.bg-purple {
+    background: #772ae7;
+}
+
+
+.text-purple {
+    color: #772ae7 !important;
+}
+
+.dashboardpng {
+    box-shadow: 0px 0px 50px 12px rgba(0, 0, 0, 0.05);
+}
+
+p {
+    font-family: Antonio, sans-serif;
+    color: #616161;
+    font-size: 16px;
+    font-weight: 200;
+    word-spacing: 1px;
+
+}
+
+
+ul {
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.list li {
+    font-family: "Roboto", Sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    /* color: #616161 !important; */
+    line-height: 2em !important;
+    /* color: #54595f; */
+}
+
+.leo-koo p {
+    color: #4B4B4B;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.leo-koo h3 {
+    color: rgb(39, 39, 39) !important;
+    font-family: Poppins, sans-serif;
+    font-size: 26px !important;
+    font-weight: 600 !important;
+}
+
+
+
+
+
+
+.btnAll {
+
+    font-family: Anton, sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 200 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.1px !important;
+    fill: rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255) !important;
+    letter-spacing: 1.1px !important;
+    background-color: transparent !important;
+    background-image: linear-gradient(90deg, #772AE7 0%, #8E8DFF 100%) !important;
+    border-style: none !important;
+    border-radius: 5px 5px 5px 5px !important;
+    box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.05) !important;
+    padding: 15px 28px 15px 28px !important;
+    transition: transform ease 0.3s !important;
+}
+
+
+
+.btnAll:hover {
+    transform: scale(0.9) !important;
+    color: #7C34E8 !important;
+    background-color: transparent !important;
+    background-image: linear-gradient(90deg, #FFFFFF 0%, #D5BAFF 100%) !important;
+}
+
+
+
+
+.btnWhite {
+    font-family: Anton, sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 200 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.1px !important;
+    color: #7C34E8 !important;
+    background-color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 15px 28px !important;
+    box-shadow: rgba(255, 255, 255, 0.43) 0px 0px 55px 8px !important;
+    /* Subtle shadow */
+    transition: all 0.3s ease !important;
+
+}
+
+.btnWhite:hover {
+
+    transform: scale(0.9) !important;
+    color: #FFFFFF !important;
+    background-color: transparent !important;
+    background-image: linear-gradient(90deg, #772AE7 0%, #8E8DFF 100%) !important;
+
+
+}
+
+
+
+.customers h3 {
+    font-family: "Anton", Sans-serif !important;
+    font-size: 18px !important;
+    font-weight: 200 !important;
+    letter-spacing: 1px !important;
+
+}
+
+.customers p {
+    color: #6B6B6B;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4em;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+}
+
+.Inbuilt {
+    font-family: "Anton", Sans-serif !important;
+    font-size: 55px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1.2px !important;
+}
+
+
+.manager p:first-of-type {
+    color: white !important;
+    font-family: "Montserrat", Sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+}
+
+
+.manager>p:nth-of-type(2) {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.manager>p:nth-of-type(3) {
+    color: #FFFFFF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.manager:hover {
+    background-color: rgb(81, 81, 181)
+}
+
+
+.border-0 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.tutorials h2 {
+    color: #181818;
+    font-family: "Anton", Sans-serif;
+    font-size: 42px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1.2px;
+    padding: 0 92px;
+}
+
+
+.tutorials p {
+    color: #616161 !important;
+    font-family: "Antonio", Sans-serif;
+    font-size: 20px !important;
+    font-weight: 200;
+    word-spacing: 1px;
+}
+
+.videos {
+    box-shadow: 0px 0px 10px 0px rgba(166.6, 166.6, 166.6, 0.5);
+}
+
+.ctitle {
+    color: rgb(83, 29, 255) !important;
+    font-family: Poppins, sans-serif !important;
+    font-size: 32px !important;
+    font-weight: 700 !important;
+}
+
+.price span:first-of-type {
+    font-family: Poppins, sans-serif !important;
+    font-size: 60px !important;
+    font-weight: 700 !important;
+}
+
+.price>span:nth-of-type(2) {
+    font-family: Poppins, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+}
+
+.rupees {
+    color: #158BF8 !important;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+}
+
+.card-heading {
+    color: #5C5C5C;
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+
+.cbody p {
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.features li {
+    padding: 6px;
+    color: #54595F;
+}
+
+.team h2:first-of-type {
+    color: #181818;
+    font-family: "Anton", Sans-serif;
+    font-size: 42px !important;
+    font-weight: 500 !important;
+    letter-spacing: 1.2px;
+
+}
+
+.team h2:nth-of-type(2) {
+    color: #1C244B;
+    font-family: "Poppins", Sans-serif;
+    font-size: 35px !important;
+    font-weight: 600 !important;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+}
+
+.team p:nth-of-type(2) {
+    color: #616161 !important;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 1px;
+}
+
+
+
+
+
+/* img {
+    
+} */

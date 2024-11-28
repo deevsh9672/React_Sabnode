@@ -1,0 +1,38 @@
+.head-1{
+    font-family: "Anton", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 2.2px;
+    
+  }
+  #accordin-button{
+    background-color: white;
+    box-shadow: none;
+  }
+
+  .btnAll{
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #772AE7 0%, #8E8DFF 100%);
+    border-style: none;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 55px 8px rgba(255, 255, 255, 0.43);
+    padding: 15px 28px 15px 28px;
+    transition: transform ease 0.3s;
+}
+
+.btnAll:hover{
+    transform: scale(0.9);
+    color: #7C34E8;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #FFFFFF 0%, #D5BAFF 100%);
+}
+
+
+/* end here */

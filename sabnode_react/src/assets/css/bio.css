@@ -1,0 +1,68 @@
+/* BioLinkSection.css */
+/* 
+.dow{
+  width: 23rem;
+  overflow: hidden  ;
+} */
+
+
+
+.bio-section {
+    background-color: #772AE7;
+    padding: 4rem;
+  }
+  
+  .bio-header {
+    color: white;
+    font-family: 'Anton', Sans-serif;
+    font-size: 37px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+  }
+  
+  .bio-subheader {
+    color: #000;
+  }
+  
+  .bio-description {
+    color: white;
+    margin-bottom: 1.6em;
+  }
+  
+  .claim-button {
+    width: 215px;
+    padding: 18px 2px;
+    font-family: 'Anton', Sans-serif;
+    margin-bottom: 7rem;
+  }
+  
+
+
+  /* AnalyzeAudienceSection.css */
+.analyze-section {
+  background-color: #772AE7;
+  padding: 2rem;
+}
+
+.analyze-header {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  margin-top: 10px;
+}
+
+.analyze-header span {
+  color: #000;
+}
+
+.analyze-description {
+  color: white;
+  font-size: 1rem;
+}
+
+.analyze-button {
+  width: 100%;
+  max-width:239px;
+  padding: 18px 2px;
+}
